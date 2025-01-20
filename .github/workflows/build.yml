@@ -55,3 +55,8 @@ jobs:
           firefox-version: "devedition-132.0b1"
       - run: |
           firefox --version
+      - uses: ./
+        with:
+          firefox-version: "134.0.1"
+      - run: |
+          firefox --version
