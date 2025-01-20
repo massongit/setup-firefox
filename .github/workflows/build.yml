@@ -57,6 +57,16 @@ jobs:
           firefox --version
       - uses: ./
         with:
+          firefox-version: "133.0"
+      - run: |
+          firefox --version
+      - uses: ./
+        with:
+          firefox-version: "134.0"
+      - run: |
+          firefox --version
+      - uses: ./
+        with:
           firefox-version: "134.0.1"
       - run: |
           firefox --version
